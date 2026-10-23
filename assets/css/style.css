@@ -416,7 +416,18 @@ h3 {
 #projects .card-reveal .card-action {
   position: sticky;
   bottom: 0;
-  background-color: #fff;
+  height: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+#projects .card-reveal .card-action a {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  pointer-events: auto;
 }
 
 #experience .card-action {
