@@ -413,6 +413,12 @@ h3 {
   text-transform: uppercase;
 }
 
+#projects .card-reveal .card-action {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+}
+
 #experience .card-action {
   background-color: rgba(0, 0, 0, 0.02);
   border: none;
