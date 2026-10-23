@@ -1381,6 +1381,21 @@ formatted in Markdown and rendered HTML.</li>
     // Materialize - Initializers
     $(document).ready(function () {
       $(".scrollspy").scrollSpy()
+
+      // Reveal project details across the whole card on devices with a mouse.
+      var projectHover = window.matchMedia("(hover: hover) and (pointer: fine)");
+      $("#projects .card").on("mouseenter mouseleave", function (event) {
+        if (!projectHover.matches) return;
+
+        var opening = event.type === "mouseenter";
+        $(this).children(".card-reveal").velocity("stop").velocity({
+          translateY: opening ? "-100%" : 0
+        }, {
+          duration: opening ? 300 : 225,
+          easing: "easeInOutQuad"
+        });
+      });
+
       // Initialize collapse button
       $(".button-collapse").sideNav({
         menuWidth: 190, // Default is 240
