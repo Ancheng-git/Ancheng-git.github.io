@@ -326,8 +326,8 @@
                 Cleaned and curated 2,000 support tickets by filtering relevant categories, standardizing text, removing HDBSCAN-identified noise, and selecting the 10 most representative tickets per cluster; created cluster-level train/validation/test splits to prevent data leakage.
               </li>
               <li>Developed a reference-free evaluation pipeline measuring faithfulness, specificity, and coherence; achieved a higher observed composite score than Claude Haiku 4.5—4.77/5 versus 4.67/5—across 50 test cases spanning 10 ticket clusters.</li>
-              <li>Conducted 620 inference benchmarks in Google Colab to evaluate batching, concurrency, and prompt configurations; increased throughput by 81% and reduced compute time per label by 45%, with unchanged predictions across 420 optimization-test requests.</li>
-              <li>Built utilization-sensitive cost models using AWS, Azure, and Google Cloud pricing and Claude Haiku 4.5 API token usage; projected batching would reduce GPU compute cost from $0.33 to $0.159 per 1,000 labels at full utilization.</li>
+              <li>Conducted 620 inference benchmarks in Google Colab to evaluate batching, concurrency, and prompt configurations; increased throughput by 2.68x and reduced compute time per label by 62.7%, with unchanged predictions across 420 optimization-test requests.</li>
+              <li>Built utilization-sensitive cost models using AWS, Azure, and Google Cloud pricing and Claude Haiku 4.5 API token usage; projected batching would reduce GPU compute cost from $0.33 to $0.0449 per 1,000 labels at full utilization.</li>
               <li>
                 <b>Tools:</b> Python, PyTorch, Hugging Face Transformers, PEFT (LoRA), bitsandbytes, Pandas, NumPy, Sentence Transformers, UMAP, HDBSCAN, Anthropic API, Google Colab, Git/GitHub.
               </li>
