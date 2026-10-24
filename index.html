@@ -358,14 +358,14 @@
             <ul>
               <li>
                 Processed and integrated NCAA athletics financial datasets spanning 2019–2024, combining with Directors’ Cup
-standings datasets across FBS institutions. 
+standings datasets across 138 FBS institutions.
               </li>
               <li>
-                Cleaned and standardized institution-level data by resolving inconsistencies and creating custom fields in Tableau
+                Cleaned and standardized institution-level data (1000+ records) by resolving inconsistencies and creating custom fields in Tableau
 to support cross-dataset joins and analysis.
               </li>
               <li>Built Tableau visualizations including financial trend, correlation, and various plots to identify performance
-patterns, and presented data-driven insights to athletic department stakeholders.</li>
+patterns (UNC: 7.665 Directors’ Cup points per $1M in expenditures), and presented data-driven insights to athletic department stakeholders.</li>
               <li>
                 <b>Tools:</b> Tableau, Generative AI
               </li>
@@ -396,16 +396,16 @@ patterns, and presented data-driven insights to athletic department stakeholders
             <div class="role brown-text text-darken-2">Program Fellow</div>
             <ul>
               <li>
-                Experienced in designing multi-agent AI systems using LangGraph, OpenAI Agents SDK. Implemented workflows
+                Experienced in designing multi-agent AI systems using LangGraph, OpenAI Agents SDK. Implemented 8+ workflows
 incorporating key agentic design patterns—such as parallelization, prompt chaining, routing, self reflection, evaluator-optimizer loops, and custom MCP
 servers—to automate complex tasks like document analysis and report generation.
               </li>
               <li>
                 Built a RAG system using LangChain and OpenAI’s API to accurately answer domain-specific questions based on a
-provided medicine knowledge base.
+provided medicine knowledge base (500-character chunks; top-5 similarity retrieval).
               </li>
-              <li>Engineered a NLP pipeline to classify sentiment across 1973 text reviews, training a Word2Vec model to extract
-word embeddings for a Logistic Regression classifier.</li>
+              <li>Engineered a NLP pipeline to classify sentiment across 2,000 text reviews, training a Word2Vec model to extract
+word embeddings for a Logistic Regression classifier (ROC-AUC: 0.72).</li>
               <li>Actively drove technical discussions and collaborated during hands-on lab sessions to troubleshoot issues and refine software implementations.</li>
               <li>
                 <b>Tools:</b> Python, Scikit-Learn, LangGraph, OpenAI Agents SDK, Pandas, Numpy
@@ -623,9 +623,9 @@ Batch Normalization, ReLU activation, and Global Average Pooling to prevent over
                 <ul>
                   <li><b>Tools:</b>Python, Pandas, Scikit-Learn, Word2vec, Jupyter</li>
                   <li>Uses Gensim to clean raw review text by removing punctuation, converting text to lowercase, stripping stop words, and tokenizing review strings into word lists</li>
-                  <li>Trains a continuous Word2Vec model on the preprocessed corpus.</li>
+                  <li>Trains a continuous Word2Vec model on the preprocessed corpus (2,000 reviews).</li>
                   <li>Integrates vectorized text features into scikit-learn's LogisticRegression pipeline to classify binary review polarity.</li>
-                  <li>Evaluates model discriminative ability on hold-out testing splits using evaluation metrics including the Area Under the ROC Curve.</li>
+                  <li>Evaluates model discriminative ability on hold-out testing splits using evaluation metrics including the Area Under the ROC Curve (ROC-AUC: 0.72).</li>
                 </ul>
                 <div class="card-action">
                   <a aria-label="View Source Code" href="https://github.com/Ancheng-git/Book_Review_Sentiment_Classifier"
@@ -694,8 +694,8 @@ formatted in Markdown and rendered HTML.</li>
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> Tableau, Excel, Data Modeling, Feature Engineering</li>
-                  <li>Integrated multi-year Knight-Newhouse financial data with Learfield Directors’ Cup standings across NCAA Division I FBS programs.</li>
-                  <li>Engineered a custom Points per Million Dollars metric to quantify institutional athletic spending efficiency and ROI.</li>
+                  <li>Integrated multi-year (2019–2024) Knight-Newhouse financial data (1000+ institution-level records) with Learfield Directors’ Cup standings across NCAA Division I FBS programs (138 institutions).</li>
+                  <li>Engineered a custom Points per Million Dollars metric to quantify institutional athletic spending efficiency and ROI (UNC: 7.665 Directors’ Cup points per $1M in expenditures).</li>
                   <li>Built interactive scatter and lollipop visualizations in Tableau identifying key positive financial performance outliers.</li>
                 </ul>
                 <div class="card-action">
