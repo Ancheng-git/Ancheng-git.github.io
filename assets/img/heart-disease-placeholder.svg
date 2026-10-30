@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Heart Disease Risk Analysis</title>
+  <desc id="desc">Placeholder for the project image.</desc>
+  <rect width="1200" height="675" fill="#eceff1"/>
+  <rect x="36" y="36" width="1128" height="603" rx="8" fill="none" stroke="#b0bec5" stroke-width="3" stroke-dasharray="14 12"/>
+  <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#455a64">Heart Disease Risk Analysis</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#78909c">Project image placeholder</text>
+</svg>
